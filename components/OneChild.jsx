@@ -13,16 +13,14 @@ module.exports = React.createClass({
   statics: {
     resolve: {
       name: function(){
+        console.log("resolving name")
         return Promise.resolve(this.getParams().name);
       }
-    },
-    willTransitionTo: function(transition, params){
-      this.setState({name: params.name})
     }
   },
   render: function(){
     return (
-      <p>Hi, my name is {this.state.name}</p>
+      <p>Hi, my name is {this.props.name}</p>
     );  
   }
 });
