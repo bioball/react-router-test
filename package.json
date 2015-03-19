@@ -1,0 +1,19 @@
+{
+  "name": "reactrouter-test",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^2.9.14",
+    "gulp": "^3.8.11",
+    "react": "^0.12.2",
+    "react-resolver": "^0.2.0",
+    "react-router": "^0.12.4",
+    "reactify": "^1.1.0"
+  }
+}
